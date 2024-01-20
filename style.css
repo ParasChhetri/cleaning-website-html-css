@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-1 {
+    height: 3.75rem;
+    background-color: rgb(0, 30, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3.5rem;
+}
+
+.site-contact {
+    color: white;
+}
+
+.social-media-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+i {
+    cursor: pointer;
+    color: white;
+}
+
+.nav-bar-img {
+    height: 56.25rem;
+    background-image: url("assets/images/young-housewife-is-wearing-yellow-gloves-while-cleaning-with-product-clean-white-wall.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-2 {
+    height: 6.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3.5rem;
+    color: white;
+    text-transform: uppercase;   
+}
+
+.logo h1 {
+    cursor: pointer;
+}
+
+.menu-icons ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.menu-icons ul li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.header-text {
+    width: 35%;
+    position: relative;
+    top: 20%;
+    left: 3%;
+}
+
+.header-text h3 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.header-text h1 {
+    color: white;
+}
+
+.header-text button {
+    background-color: rgb(0, 30, 255);
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    margin-top: 1.25rem;
+    cursor: pointer;
+}
+
+.services-div {
+    padding: 2rem 3.5rem;
+}
+
+.uppercase-letter-aqua {
+    text-transform: uppercase;
+    color: aqua;
+    text-align: center;
+}
+
+.capital-letter-margin {
+    text-transform: capitalize;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.service-1 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.service-card {
+    display: flex;
+    gap: 1rem;
+}
+
+.service-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.service-content p {
+    text-align: justify;
+}
+
+.uppercase-letter {
+    text-transform: uppercase;
+}
+
+.service-icon i {
+    font-size: 2.5rem;
+    color: greenyellow;
+}
+
+.project-1 {
+    padding: 0 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.project-image {
+    height: 28.125rem;
+    width: 18.75rem;
+}
+
+.project-image img {
+    height: 100%;
+    width: 100%;
+}
